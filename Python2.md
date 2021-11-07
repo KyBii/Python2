@@ -13,76 +13,70 @@ print(nama[6:14])
 ### Source Code
 
 ```py
-first_name = "Abigail"
-last_name = "Perkasa"
+nama_depan = "Abigail"
+nama_belakang = "Perkasa"
 
-pesan = first_name + " [" + last_name +"]"
+pesan = nama_depan + "["+ nama_belakang + "]"
+
+print(pesan)
+
+umur = 19
+
+pesan = "Umur saya " + str(umur) + (" tahun")
+
 print(pesan)
 ```
-```py
-
 ### VS Code & Output
-![W2](https://user-images.githubusercontent.com/93004722/140597935-ec672754-36d6-471d-a58b-02ff369b97b2.PNG)
+![E1](https://user-images.githubusercontent.com/93004722/140632398-f7a4a2ec-98fb-4684-8669-9e1f55ff8180.PNG)
 
 ## 3. String Method
 ### Source Code
 
 ```py
-nama = input("Siapa nama kamu? ")
-hobi = input("Apa hobimu? ")
-
-print(nama + " hobimu adalah " + hobi)
+kursus = "Belajar Menulis bersama Abigail Perkasa"
+print(kursus.upper())
+print(kursus.lower())
+print(kursus.replace("Menulis", "Menggambar"))
+print(kursus)
 ```
 ### VS Code & Output
-![Q3](https://user-images.githubusercontent.com/93004722/140596167-7300fff8-f61c-4d7d-a5f7-0853c4156366.PNG)
+![W3](https://user-images.githubusercontent.com/93004722/140632572-70573dc0-9298-4068-819a-175954a68f72.PNG)
 
 ## 4. Matematika
 ### Source Code
 
 ```py
-tahun = input("Tahun lahir = ")
-print(type(tahun))
-
-tahun = int(tahun)
-print(type(tahun))
-
-umur = 2021 - tahun
-
-print("Umur kamu " + str(umur))
+x = 10
+y = 5
+print(x * y)
+print(x - y)
+print(x + y)
+print(x / y)
 ```
 ### VS Code & Output
-![Q4](https://user-images.githubusercontent.com/93004722/140596203-b6e2c90d-a883-43e2-9567-ba1197ae5424.PNG)
+![W4](https://user-images.githubusercontent.com/93004722/140632620-da5f31d5-6841-445d-b171-9b6479e6bd5a.PNG)
 
 ## 5. Operator Precedence
 ### Source Code
 
 ```py
-tahun = input("Tahun lahir = ")
-print(type(tahun))
-
-tahun = int(tahun)
-print(type(tahun))
-
-umur = 2021 - tahun
-
-print("Umur kamu " + str(umur))
+nomor = (10 + 5) * 2 ** 4
+print(nomor)
+#TANDA KURUNG
+#PERPANGKATAN 
+#PERKALIAN ATAU PEMBAGIAN
+#PEJUMLAHAN ATAU PENGURANGAN
 ```
 ### VS Code & Output
-![Q4](https://user-images.githubusercontent.com/93004722/140596203-b6e2c90d-a883-43e2-9567-ba1197ae5424.PNG)
+![W5](https://user-images.githubusercontent.com/93004722/140632737-3056242e-515c-4671-9fc9-55a99e797a96.PNG)
 
 ## 6. Math Module
 ### Source Code
 
 ```py
-tahun = input("Tahun lahir = ")
-print(type(tahun))
-
-tahun = int(tahun)
-print(type(tahun))
-
-umur = 2021 - tahun
-
-print("Umur kamu " + str(umur))
+nomor = 7.7
+nomor = round(nomor)
+print(nomor)
 ```
 ### VS Code & Output
-![Q4](https://user-images.githubusercontent.com/93004722/140596203-b6e2c90d-a883-43e2-9567-ba1197ae5424.PNG)
+![W6](https://user-images.githubusercontent.com/93004722/140632818-b9c03018-9234-4fcd-9afc-6755b2b8fa7f.PNG)
